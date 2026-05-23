@@ -520,6 +520,12 @@ h3 { font-size: clamp(1.35rem, 2.5vw, 1.75rem); }
   object-position: center;
 }
 
+/* Hair dye - showcase the colored hair */
+.service-card[data-service-id="hair-dye"] .service-image img {
+  object-fit: cover;
+  object-position: top;
+}
+
 .service-card[data-service-id="fade"] .service-image,
 .service-card[data-service-id="beard"] .service-image,
 .service-card[data-service-id="kids"] .service-image {
