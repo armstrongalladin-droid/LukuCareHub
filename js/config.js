@@ -13,10 +13,10 @@ const LUKU_CONFIG = {
 
   // Facebook Page username (for m.me links) or numeric Page ID
   facebookPage: 'bernardkip',
-  facebookPageUrl: 'https://facebook.com/bernardkip',
+  facebookPageUrl: 'https://www.facebook.com/profile.php?id=100072087281374',
 
   // Messenger Customer Chat Plugin — your Facebook Page ID (numeric)
-  facebookPageId: '111659961187408',
+  facebookPageId: '100072087281374',
 
   hours: {
     weekdays: 'Mon – Sat: 8:00 AM – 8:00 PM',
