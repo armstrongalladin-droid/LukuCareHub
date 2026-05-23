@@ -12,8 +12,8 @@ const LUKU_CONFIG = {
   whatsappNumber: '254705404515',
 
   // Facebook Page username (for m.me links) or numeric Page ID
-  facebookPage: 'BernardKip',
-  facebookPageUrl: 'https://www.facebook.com/BernardKip',
+  facebookPage: 'bernardkip',
+  facebookPageUrl: 'https://facebook.com/bernardkip',
 
   // Messenger Customer Chat Plugin — your Facebook Page ID (numeric)
   facebookPageId: '000000000000000',
