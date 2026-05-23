@@ -16,7 +16,7 @@ const LUKU_CONFIG = {
   facebookPageUrl: 'https://facebook.com/bernardkip',
 
   // Messenger Customer Chat Plugin — your Facebook Page ID (numeric)
-  facebookPageId: '000000000000000',
+  facebookPageId: '111659961187408',
 
   hours: {
     weekdays: 'Mon – Sat: 8:00 AM – 8:00 PM',
@@ -27,7 +27,7 @@ const LUKU_CONFIG = {
   phone: '+254 705 404 515',
   address: 'Rafiki, Nakuru, Kenya',
   googleMapsUrl:
-    'https://www.google.com/maps/place/Luku+Care+Barbershop/@-0.1537423,35.9605672,17z/data=!4m7!3m6!1s0x1829f7321e451dc3:0x3000b825ce72218b!4b1!8m2!3d-0.1537423!4d35.9605672!16s%2Fg%2F11mydyw1kq?entry=ttu',
+    'https://www.google.com/maps/place/Luku+Care+Hub/@-0.1537423,35.9605672,17z/data=!4m7!3m6!1s0x1829f7321e451dc3:0x3000b825ce72218b!4b1!8m2!3d-0.1537423!4d35.9605672!16s%2Fg%2F11mydyw1kq?entry=ttu',
 
   // Default booking message template (automation-friendly)
   bookingMessageTemplate:
