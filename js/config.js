@@ -9,7 +9,7 @@ const LUKU_CONFIG = {
   location: 'Nakuru, Kenya, Rafiki',
 
   // Kenya format: 2547XXXXXXXX (no + or spaces)
-  whatsappNumber: '254707305153',
+  whatsappNumber: '254705404515',
 
   // Facebook Page username (for m.me links) or numeric Page ID
   facebookPage: 'lukucarehub',
@@ -24,7 +24,7 @@ const LUKU_CONFIG = {
   },
 
   email: 'hello@lukucare.co.ke',
-  phone: '+254 707 305 153',
+  phone: '+254 705 404 515',
   address: 'Rafiki, Nakuru, Kenya',
   googleMapsUrl:
     'https://www.google.com/maps/place/Luku+Care+Barbershop/@-0.1537423,35.9605672,17z/data=!4m7!3m6!1s0x1829f7321e451dc3:0x3000b825ce72218b!4b1!8m2!3d-0.1537423!4d35.9605672!16s%2Fg%2F11mydyw1kq?entry=ttu',
