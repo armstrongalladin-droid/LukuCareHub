@@ -46,5 +46,9 @@ const LUKU_CONFIG = {
     { id: 'hot-towel', name: 'Hot Towel Shave', duration: '40 min', image: 'images/services/hot-towel.jpg' },
     { id: 'kids', name: "Kids' Cut", duration: '25 min', image: 'images/services/kids.jpg' },
     { id: 'vip', name: 'VIP Experience', duration: '90 min', image: 'images/services/vip.jpg' },
+    { id: 'hair-wash', name: 'Hair Wash', duration: '20 min', image: 'images/services/hair wash.jpg' },
+    { id: 'hair-dye', name: 'Hair Dye/Colouring', duration: '75 min', image: 'images/services/hair colouring.jpg' },
+    { id: 'facial', name: 'Facial Clean Up', duration: '35 min', image: 'images/services/facial cleanup.jpg' },
+    { id: 'ingrown', name: 'Ingrown Hair Extraction', duration: '30 min', image: 'images/services/ingrown hair extraction.jpg' },
   ],
 };
