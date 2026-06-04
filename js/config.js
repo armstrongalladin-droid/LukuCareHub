@@ -2,6 +2,8 @@
  * Luku Care Hub — Site Configuration
  * Update these values with your real business details.
  * Designed for ManyChat / WhatsApp Business API integration.
+ *
+ * NOTE: Facebook URLs are managed in js/social-links.js as the single source of truth.
  */
 const LUKU_CONFIG = {
   businessName: 'Luku Care Hub',
@@ -11,9 +13,10 @@ const LUKU_CONFIG = {
   // Kenya format: 2547XXXXXXXX (no + or spaces)
   whatsappNumber: '254705404515',
 
-  // Facebook Page username (for m.me links) or numeric Page ID
-  facebookPage: 'bernardkip',
-  facebookPageUrl: 'https://www.facebook.com/profile.php?id=100072087281374&mibextid=rS40aB7S9Ucbxw6v',
+  // Facebook Page username (for m.me links) or numeric Page ID — from SOCIAL_LINKS.messengerUsername
+  facebookPage: typeof SOCIAL_LINKS !== 'undefined' ? SOCIAL_LINKS.messengerUsername : 'bernardkip',
+  // Facebook Page URL — from SOCIAL_LINKS.facebook (single source of truth)
+  facebookPageUrl: typeof SOCIAL_LINKS !== 'undefined' ? SOCIAL_LINKS.facebook : 'https://www.facebook.com/profile.php?id=100072087281374&mibextid=rS40aB7S9Ucbxw6v',
 
   // Messenger Customer Chat Plugin — your Facebook Page ID (numeric)
   facebookPageId: '100072087281374',
